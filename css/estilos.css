@@ -15,9 +15,16 @@ input {
 button {
     font-weight: bold;
     border-radius: 8px;
-    box-shadow: #0099 -1px 2px 2px;  
+    box-shadow: #0099 -1px 2px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0099;
 }
 
 p {
     margin: 30px 0 50px 0;
+    font-weight: bolder;
 }

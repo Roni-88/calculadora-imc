@@ -3,12 +3,7 @@ function start () {
     botaoCalcularImc.addEventListener ('click', handleButtonClick)
 
     var peso = document.querySelector ('#peso')
-    var altura = document.querySelector ('#altura')
-
-    peso.addEventListener ('input', handleButtonClick)
-    altura.addEventListener ('input', handleButtonClick)
-
-    handleButtonClick ()
+    var altura = document.querySelector ('#altura') 
 }
 
 function calcularImc (peso, altura) {
